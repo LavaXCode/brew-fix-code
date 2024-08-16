@@ -1,0 +1,9 @@
+cd /opt/homebrew/bin/
+
+PATH=$PATH:/opt/homebrew/bin
+
+cd
+
+touch .zshrc
+
+echo export PATH=$PATH:/opt/homebrew/bin >> .zshrc
